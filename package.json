@@ -14,7 +14,7 @@
   "ngPackage": {
     "lib": {
       "externals": {
-        "rxjs/rx": "Rx"
+        "rxjs/Rx": "Rx"
       },
       "entryFile": "public_api.ts"
     }
