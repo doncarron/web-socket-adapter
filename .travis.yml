@@ -1,0 +1,27 @@
+#.travis.yml
+
+language: node_js
+node_js:
+  - "7.10"
+
+branches:
+  only:
+    - 1.0
+
+before_install:
+  - npm i -g npm@5
+  
+before_script:
+  - npm i -g @angular/cli
+  
+cache:
+  directories:
+    - "node_modules"
+
+script:
+  - ng build --prod --aot
+
+notifications:
+  email:
+    on_failure: change
+    on_success: change
