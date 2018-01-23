@@ -19,7 +19,7 @@ cache:
     - "node_modules"
 
 script:
-  - ng build --prod --aot
+  - npm run-script build
 
 notifications:
   email:
