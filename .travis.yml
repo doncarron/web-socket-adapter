@@ -17,7 +17,8 @@ before_deploy:
 - cd dist
 deploy:
   provider: npm
-  email: don.carron@gmail.com
+  email: don.carron@gmail.com,
+  skip_cleanup: true
   on:
     branch: 1.0
   api_key:
