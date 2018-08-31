@@ -14,7 +14,7 @@ cache:
 script:
 - npm run-script build
 before_deploy:
-- cd dist\socket
+- cd dist/socket
 deploy:
   provider: npm
   email: don.carron@gmail.com,
