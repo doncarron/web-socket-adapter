@@ -1,6 +1,6 @@
 import { AppPage } from './app.po';
 
-describe('web-socket-adapter App', () => {
+describe('workspace-project App', () => {
   let page: AppPage;
 
   beforeEach(() => {
@@ -9,6 +9,6 @@ describe('web-socket-adapter App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('Welcome to app!');
+    expect(page.getParagraphText()).toEqual('Welcome to web-socket-adapter!');
   });
 });
